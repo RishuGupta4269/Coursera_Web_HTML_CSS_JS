@@ -1,0 +1,89 @@
+body{
+  background-color:#D3D3D3; 
+
+}
+#header-nav
+{
+  background-color: #93B592;
+  border-radius: 0;
+  border: 0;
+}
+
+
+/*#header-nav .container
+{/*To align brand name left
+  margin-left: 0;
+}*/
+
+/**START HEADER**/
+.navbar-brand h1 { /* Brand name */
+  font-family: 'Helvetica', serif;
+  color: #D90166;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  text-align: left;
+  margin-top:0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover ,.navbar-brand a:focus{/*removes underline*/
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #D90166;
+  text-align: center;
+  font-weight: bold;
+  text-size:1.5em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+/**END HEADER **/
+
+/**START MAIN CONTENT**/
+#main-content
+{
+  margin-bottom: 30px;
+  width:92%;
+}
+#top-heading
+{
+  font-size:3em;
+  color:#D90166;
+  font-weight: bold;
+}
+
+#tiles
+{
+  font-size:1em;
+  font-style: italic;
+  color: #D90166;
+}
+
+#tiles h3
+{
+  font-size: 2.5em;
+  font-weight: bold;
+  font-style: none;
+}
+#tiles div
+{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+#tiles section
+{
+  padding:10px;
+  margin:auto;
+  background-color: #93B592;
+}
+/**END MAIN CONTENT**/
